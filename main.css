@@ -1,0 +1,28 @@
+.box{
+    height:40px;
+    width:80px;
+    background-color: #000;
+    animation-name:growing;
+    animation-duration:2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 40;
+    
+    
+}
+
+@keyframes growing{
+    from{
+        width:80px;
+    }
+     to{
+         
+         width:100px;
+     }
+    
+    
+    
+    
+    
+}
+
+
